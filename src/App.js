@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://jerry-updated.vercel.app';
+            window.location.href = 'https://outbook.biplavshrestha.com.np';
         }, 2000);
 
         return () => clearTimeout(timer);
